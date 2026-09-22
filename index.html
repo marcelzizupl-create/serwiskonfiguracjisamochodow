@@ -6,18 +6,18 @@
     <title>Konfigurator samochodów</title>
 </head>
 <body>
-    <div id="main">
-        <div id="header">
-            <h1>Serwis konfiguracji samochodów</h1>
-        </div>
-        
-        <nav id="menu">
-            <h2>Samochody</h2>
-            <h2>Konfigurator</h2>
-            <h2>Kontakt</h2>
-        </nav>
+    <header>
+        <h1>Serwis konfiguracji samochodów</h1>
+    </header>
+    
+    <nav>
+        <h2>Samochody</h2>
+        <h2>Konfigurator</h2>
+        <h2>Kontakt</h2>
+    </nav>
 
-        <div id="samochody">
+    <main>
+        <section id="lewy">
             <table>
                 <tr>
                     <td>BM</td> <td>alfa</td> <td>zielony</td> <td>70000</td>
@@ -38,47 +38,45 @@
                     <td>BM</td> <td>alfa</td> <td>czarny metalik</td> <td>71000</td>
                 </tr>
             </table>
-        </div>
+        </section>
 
-        <div id="konfigurator">
+        <section id="srodkowy">
             <table>
                 <tr>
-                    <td colspan="2">Konfiguracja</td> <td>Cena</td>
+                    <th colspan="2">Konfiguracja</th> 
+                    <th>Cena</th>
                 </tr>
                 <tr>
-                    <td colspan="2"><img src="a1.jpg" alt="auto"></td> <td>94000</td>
+                    <td colspan="2"><img src="a1.jpg" alt="Konfiguracja 1"></td> 
+                    <td rowspan="3">94000</td>
                 </tr>
                 <tr>
-                    <td>Marka</td> <td colspan="2">BM</td>
+                    <td>Marka</td> <td>BM</td>
                 </tr>
                 <tr>
-                    <td>Model</td> <td colspan="2">beta</td>
+                    <td>Model</td> <td>beta</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><img src="a2.jpg" alt="Konfiguracja 2"></td> 
+                    <td rowspan="3">77000</td>
+                </tr>
+                <tr>
+                    <td>Marka</td> <td>BM</td>
+                </tr>
+                <tr>
+                    <td>Model</td> <td>beta</td>
                 </tr>
             </table>
+        </section>
 
-            <table style="margin-top: 20px;">
-                <tr>
-                    <td colspan="3"><img src="a2.jpg" alt="auto"></td>
-                </tr>
-                <tr>
-                    <td>Marka</td> <td>BM</td> <td>77000</td>
-                </tr>
-                <tr>
-                    <td>Model</td> <td>beta</td> <td></td>
-                </tr>
-            </table>
-        </div>
+        <section id="prawy">
+            <h3>111 222 444</h3>
+            <img src="a3.png" alt="Samochód">
+        </section>
+    </main>
 
-        <div id="kontakt">
-            <p>111 222 333</p>
-            <picture>
-                <img src="a3.png" alt="auto">
-            </picture>
-        </div>
-
-        <div id="footer">
-            <p>Autor Marcel Bakal 01</p>
-        </div>
-    </div>
+    <footer>
+        <p>Stronę wykonał: Marcel Bakal 01</p>
+    </footer>
 </body>
 </html>
