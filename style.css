@@ -1,0 +1,93 @@
+#main {
+    max-width: 4000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #90ee91;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#header {
+    background-color: #016501;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+#footer {
+    background-color: #016501;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+#menu {
+    background-color: #238b23;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    width: 100%;
+}
+
+#menu h2 {
+    flex: 1;             
+    text-align: center;  
+    color: white;
+    margin: 0;
+}
+
+#samochody {
+    background-color: #90ee91;
+    padding: 20px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    flex: 1;
+}
+
+#samochody table, #konfigurator table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+    background-color: #90ee91;
+}
+
+#samochody td, #konfigurator td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+#konfigurator {
+    background-color: #90ee91;
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#konfigurator img {
+    max-width: 250px;
+    height: auto;
+    display: block;
+}
+
+#kontakt {
+    background-color: #90ee91;
+    padding: 20px;
+    text-align: right;
+    color: white;
+    flex: 1;
+}
+
+#kontakt p {
+    font-size: 30px;
+    color: black;
+}
+
+#kontakt img {
+    max-width: 200px;
+    height: auto;
+}
